@@ -287,6 +287,12 @@ header {
   line-height: 26px;
 }
 
+.more img {
+  display: inline-block;
+  width: 24px;
+  margin-right: 9px;
+}
+
 .content a {
   color: #122231;
   font-style: italic;
@@ -452,7 +458,7 @@ header {
   width: 450px;
   position: absolute;
   right: 5%;
-  top: 10%;
+  top: 15%;
 }
 
 .invest-card-img img {
@@ -696,6 +702,26 @@ footer a {
   }
 
   .hero-img {
+    position: relative;
+  }
+
+  .security {
+    text-align: center;
+  }
+
+
+  .invest-card,
+  .invest-card .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-bottom: 0px;
+  }
+
+  .invest-card .card-link,
+  .invest-card-img {
     position: relative;
   }
 
