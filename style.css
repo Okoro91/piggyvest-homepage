@@ -280,6 +280,13 @@ header {
   color: #122231;
 }
 
+.content p {
+  margin-top: 16px;
+  max-width: 621px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
 .content a {
   color: #122231;
   font-style: italic;
@@ -360,6 +367,7 @@ header {
 .saving-card:nth-child(1) a {
   color: #003399;
 }
+
 
 .saving-card:nth-child(2) h1,
 .saving-card:nth-child(2) a {
