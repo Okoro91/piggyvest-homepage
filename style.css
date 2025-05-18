@@ -689,6 +689,7 @@ footer a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 25px 0;
   }
 
   .hero-text {
@@ -698,6 +699,7 @@ footer a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 395px;
     margin-bottom: 85px;
   }
 
@@ -705,24 +707,75 @@ footer a {
     position: relative;
   }
 
+
   .security {
+    margin-top: 398px;
     text-align: center;
   }
 
+  .invest-text h1 {
+    font-size: 28px;
+  }
 
-  .invest-card,
-  .invest-card .card-text {
+
+   .invest-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: auto;
-    padding-bottom: 0px;
+    max-width: 650px;
+    padding-bottom: 0;
   }
 
-  .invest-card .card-link,
+
+  .invest-card .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-text .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-text .text h1 {
+    font-size: 28px;
+    width: 350px;
+  }
+  .card-text .text p {
+    font-size: 16px;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .invest-card .card-text .card-link {
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
   .invest-card-img {
     position: relative;
+    left: unset;
+    right: unset;
+    top: unset;
+    bottom: unset;
+    margin-top: 25px;
+    padding: 0;
+    width: 350px;
   }
+
 
 }
