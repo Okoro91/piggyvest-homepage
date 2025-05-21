@@ -718,7 +718,7 @@ footer a {
   }
 
 
-   .invest-card {
+  .invest-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -744,9 +744,10 @@ footer a {
   }
 
   .card-text .text h1 {
-    font-size: 28px;
-    width: 350px;
+    font-size: 32px;
+    width: 390px;
   }
+
   .card-text .text p {
     font-size: 16px;
     text-align: center;
@@ -765,24 +766,50 @@ footer a {
     align-items: center;
     margin-top: 10px;
   }
-  
+
   .invest-card-img {
     position: relative;
     left: unset;
     right: unset;
     top: unset;
-    bottom: unset;
-    margin-top: 25px;
+    bottom: -10px;
+    margin-top: 45px;
     padding: 0;
-    width: 350px;
+    width: 450px;
   }
 }
 
+  .customers {
+    flex-direction: column;
+  }
 
+<<<<<<< HEAD
 .disclaimer {
     background-color: #ffdddd; 
     padding: 10px; 
     border: 1px solid #cc0000; 
     margin: 20px 30px; 
     font-size: 14px;
+=======
+  .customers-img {
+    max-width: 400px;
+    width: 100%;
+    order: 1;
+  }
+
+  .customers-text {
+    max-width: 400px;
+    width: 100%;
+    min-width: 100%;
+  }
+
+  .top-links {
+    flex-wrap: wrap;
+    gap: 45px;
+  }
+
+  .footer-logo {
+    width: 100%;
+  }
+>>>>>>> 96746427c85cb2a583d98f3077cc554c2c40ff63
 }
