@@ -777,20 +777,12 @@ footer a {
     padding: 0;
     width: 450px;
   }
-}
 
+  
   .customers {
     flex-direction: column;
   }
 
-<<<<<<< HEAD
-.disclaimer {
-    background-color: #ffdddd; 
-    padding: 10px; 
-    border: 1px solid #cc0000; 
-    margin: 20px 30px; 
-    font-size: 14px;
-=======
   .customers-img {
     max-width: 400px;
     width: 100%;
@@ -811,5 +803,14 @@ footer a {
   .footer-logo {
     width: 100%;
   }
->>>>>>> 96746427c85cb2a583d98f3077cc554c2c40ff63
+}
+
+
+  
+.disclaimer {
+    background-color: #ffdddd; 
+    padding: 10px; 
+    border: 1px solid #cc0000; 
+    margin: 20px 30px; 
+    font-size: 14px;
 }
