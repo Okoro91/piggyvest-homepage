@@ -776,6 +776,13 @@ footer a {
     padding: 0;
     width: 350px;
   }
+}
 
 
+.disclaimer {
+    background-color: #ffdddd; 
+    padding: 10px; 
+    border: 1px solid #cc0000; 
+    margin: 20px 30px; 
+    font-size: 14px;
 }
